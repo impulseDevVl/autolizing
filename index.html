@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Автолизинг</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- Marquiz script start -->
+  <script>
+    (function (w, d, s, o) {
+      var j = d.createElement(s);
+      j.async = true;
+      j.src = '//script.marquiz.ru/v2.js';
+      j.onload = function () {
+        if (document.readyState !== 'loading') Marquiz.init(o);
+        else document.addEventListener("DOMContentLoaded", function () {
+          Marquiz.init(o);
+        });
+      };
+      d.head.insertBefore(j, d.head.firstElementChild);
+    })(window, document, 'script', {
+      host: '//quiz.marquiz.ru',
+      region: 'eu',
+      id: '624a33989ccbf8003fce1c5e',
+      autoOpen: false,
+      autoOpenFreq: 'once',
+      openOnExit: false,
+      disableOnMobile: false
+    });
+  </script>
+  <!-- Marquiz script end -->
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header-col header-left">
+            <div class="header-box">
+              <div class="header__text text-sm">Фактический адрес</div>
+              <div class="header__title">Владивосток, пр-т 100-лет Владивостоку, 103, офис 313а</div>
+            </div>
+            <div class="header-box">
+              <div class="header__text text-sm">Время работы</div>
+              <div class="header__title">10:00 - 18:00</div>
+            </div>
+          </div>
+          <div class="header-col">
+            <a class="header__link link" href="tel:+79247301201">+7 (924) 730-12-01</a>
+            <a class="header__link link" href="#" target="_blank">Написать в WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="container">
+        <nav class="header__inner">
+          <a href="/" class="header-logo text">Автолизинг</a>
+          <div class="header-bottom-col header-col">
+            <ul class="header-menu">
+              <li class="header-menu__item">
+                <a href="#avtopark" class="header-menu__link link text">Автопарк</a>
+              </li>
+              <li class="header-menu__item">
+                <a href="#usloviya-arendy" class="header-menu__link link text">Условия аренды</a>
+              </li>
+              <li class="header-menu__item">
+                <a href="#pravila-oplaty" class="header-menu__link link text">Правила оплаты</a>
+              </li>
+              <li class="header-menu__item">
+                <a href="#" class="header-menu__link link text">Онлайн оплата</a>
+              </li>
+            </ul>
+            <div class="header__items">
+              <div class="header-box mb-2">
+                <div class="header__text text-sm">Фактический адрес</div>
+                <div class="header__title">Владивосток, пр-т 100-лет Владивостоку, 103, офис 313а</div>
+              </div>
+              <div class="header-box">
+                <div class="header__text text-sm">Время работы</div>
+                <div class="header__title">10:00 - 18:00</div>
+              </div>
+            </div>
+            <a href="#" class="header-btn btn btn-primary">Написать в WhatsApp</a>
+          </div>
+          <div class="btn-menu">
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <main class="main">
+      <section class="top main-section">
+        <div class="container">
+          <div class="top__inner">
+            <div class="top-content">
+              <h1 class="top__title title-lg">
+                Аренда автомобиля с последующим
+                <span class="select">выкупом</span>
+              </h1>
+              <p class="top__text text mb-2">с первоначальным взносом <br> от 15% стоимости</p>
+              <div class="top-form">
+                <h5 class="top-form__title">Оставьте заявку и мы свяжемся с вами в ближайшее время</h5>
+                <form action="" name="top-form">
+                  <div class="top-form__row">
+                    <input id="name" class="top-form__input form-input" name="name" type="text" placeholder="Имя"
+                      required>
+                    <input id="phone" class="top-form__input form-input" name="phone" type="tel" data-tel-input
+                      maxlength="18" placeholder="Телефон" required>
+                    <input type="submit" class="btn btn-primary top-form-btn btn-lg" value="Оставить заявку">
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="top-col">
+              <div class="top-img__inner">
+                <img src="images/top-img.png" alt="Аренда автомобиля" class="top-img">
+                <button class="btn btn-default top-btn" data-fancybox data-src="#application">Оставить заяку</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about section">
+        <div class="container">
+          <div class="about__inner">
+            <h2 class="about__title title mb-2">В чём заключается данная услуга?</h2>
+            <p class="about__text text__inner">
+              Услуга предусматривает выкуп транспортного средства, выбранного вами как из нашего автопарка, так и из
+              публичных объявлений,
+              <span>с первоначальным взносом от 15% стоимости автомобиля</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <div id="avtopark" class="catalog section">
+        <div class="container">
+          <h3 class="catalog__title title mb-2">Основные автомобили автопарка</h3>
+          <div class="catalog__items">
+            <a class="catalog-item card" href="nissan-note.html">
+              <img class="catalog-item__img" src="images/catalog-item-1.jpg" alt="">
+              <div class="catalog-item__footer">
+                <h5 class="catalog-item__title">Nissan Note</h5>
+                <p class="catalog-item__price">
+                  от 450 ₽/сутки
+                  <svg width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 .5l4 4-4 4" stroke="#A8A8A8" stroke-linecap="round" /></svg>
+                </p>
+              </div>
+            </a>
+            <a class="catalog-item card" href="#">
+              <img class="catalog-item__img" src="images/catalog-item-3.jpg" alt="">
+              <div class="catalog-item__footer">
+                <h5 class="catalog-item__title">Honda Fit</h5>
+                <p class="catalog-item__price">
+                  от 500 ₽/сутки
+                  <svg width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 .5l4 4-4 4" stroke="#A8A8A8" stroke-linecap="round" /></svg>
+                </p>
+              </div>
+            </a>
+            <a class="catalog-item card" href="#">
+              <img class="catalog-item__img" src="images/catalog-item-3.jpg" alt="">
+              <div class="catalog-item__footer">
+                <h5 class="catalog-item__title">Toyota Axio</h5>
+                <p class="catalog-item__price">
+                  от 600 ₽/сутки
+                  <svg width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 .5l4 4-4 4" stroke="#A8A8A8" stroke-linecap="round" /></svg>
+                </p>
+              </div>
+            </a>
+            <a class="catalog-item card" href="nissan-note.html">
+              <img class="catalog-item__img" src="images/catalog-item-4.jpg" alt="">
+              <div class="catalog-item__footer">
+                <h5 class="catalog-item__title">Toyota Prius</h5>
+                <p class="catalog-item__price">
+                  от 700 ₽/сутки
+                  <svg width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 .5l4 4-4 4" stroke="#A8A8A8" stroke-linecap="round" /></svg>
+                </p>
+              </div>
+            </a>
+            <a class="catalog-item card" href="#">
+              <img class="catalog-item__img" src="images/catalog-item-5.jpg" alt="Toyota Noah">
+              <div class="catalog-item__footer">
+                <h5 class="catalog-item__title">Toyota Noah</h5>
+                <p class="catalog-item__price">
+                  от 800 ₽/сутки
+                  <svg width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 .5l4 4-4 4" stroke="#A8A8A8" stroke-linecap="round" /></svg>
+                </p>
+              </div>
+            </a>
+            <a class="catalog-item card" href="#">
+              <img class="catalog-item__img" src="images/catalog-item-6.jpg" alt="Toyota Harrier">
+              <div class="catalog-item__footer">
+                <h5 class="catalog-item__title">Toyota Harrier</h5>
+                <p class="catalog-item__price">
+                  от 1 000 ₽/сутки
+                  <svg width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 .5l4 4-4 4" stroke="#A8A8A8" stroke-linecap="round" /></svg>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="benefits section">
+        <div class="container">
+          <h4 class="benefits__title title mb-2">Почему лучше обратиться к нам?</h4>
+          <div class="benefits__items">
+            <div class="benefits-item">
+              <svg width="60" height="60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M28.203 34.632c.442.191.947.287 1.516.287.566 0 1.068-.096 1.504-.287.439-.191.783-.453 1.033-.785.25-.334.375-.713.375-1.136 0-.33-.074-.632-.222-.907a2.02 2.02 0 00-.589-.69 1.846 1.846 0 00-.827-.355v-.054a1.65 1.65 0 00.969-.616c.252-.324.378-.698.378-1.121 0-.403-.114-.763-.344-1.08a2.298 2.298 0 00-.934-.746 3.136 3.136 0 00-1.343-.275c-.508 0-.96.092-1.355.275-.395.181-.707.43-.934.747a1.78 1.78 0 00-.336 1.079c-.003.423.12.797.367 1.121.25.322.577.527.98.616v.054a1.9 1.9 0 00-.834.356 2.02 2.02 0 00-.59.689 1.881 1.881 0 00-.214.907c-.003.423.12.802.367 1.136.25.332.595.593 1.033.785zm2.281-.957c-.217.1-.472.15-.765.15-.296 0-.554-.052-.773-.154a1.203 1.203 0 01-.505-.425 1.114 1.114 0 01-.176-.635c-.003-.25.058-.47.183-.662a1.31 1.31 0 01.52-.455c.22-.11.47-.165.751-.165.278 0 .526.055.742.165.22.11.392.261.517.455.128.191.193.412.195.662a1.16 1.16 0 01-.183.635c-.12.184-.289.327-.506.43zm-.13-3.567a1.342 1.342 0 01-.635.146c-.242 0-.458-.049-.647-.146a1.145 1.145 0 01-.44-.405 1.116 1.116 0 01-.153-.601 1.09 1.09 0 01.15-.59c.104-.17.25-.302.436-.394.188-.094.406-.141.654-.141.242 0 .457.047.643.141.186.092.332.224.436.394.105.169.158.365.161.59a1.108 1.108 0 01-.605 1.006z"
+                  fill="#000" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M30.993 18.194a2.875 2.875 0 00-3.851 1.297l-.002.002-2.432 4.852-5.39.77-.002.001a2.875 2.875 0 00-1.584 4.927l3.872 3.71-.92 5.268v.002a2.875 2.875 0 004.16 3.05h.002l4.87-2.516 4.872 2.517h.001a2.875 2.875 0 004.16-3.05v-.002l-.92-5.269 3.871-3.71a2.875 2.875 0 00-1.584-4.928l-5.391-.77-2.433-4.852v-.002a2.876 2.876 0 00-1.299-1.297zm-2.06 2.187a.875.875 0 011.567 0l.003.005 2.668 5.323a1 1 0 00.753.542l5.911.845h.003a.875.875 0 01.482 1.5l-.002.002-4.257 4.08a1 1 0 00-.293.894l1.01 5.797.001.003a.875.875 0 01-1.266.929l-5.337-2.758a1 1 0 00-.918 0l-5.334 2.755-.004.002a.875.875 0 01-1.266-.93v-.002l1.011-5.796a1 1 0 00-.293-.894l-4.257-4.08-.002-.002a.875.875 0 01.482-1.5h.003l5.911-.845a1 1 0 00.753-.542l2.668-5.323.003-.005z"
+                  fill="#000" />
+                <path
+                  d="M41.068 30.65l.79.756a1 1 0 01.293.894l-.662 3.793v.003a.227.227 0 00.328.241l.004-.002 3.49-1.803a1 1 0 01.919 0l3.493 1.806a.227.227 0 00.329-.241v-.003L49.39 32.3a1 1 0 01.293-.894l2.788-2.671a.227.227 0 00-.125-.39h-.003l-3.868-.552a1 1 0 01-.753-.542l-1.746-3.484-.002-.004a.227.227 0 00-.407 0l-.002.004-1.746 3.484a1 1 0 01-.753.541l-.476.069a2.874 2.874 0 00-.815-1.904l.49-.07 1.51-3.012.001-.002a2.227 2.227 0 013.988-.001l.002.003 1.51 3.012 3.347.478h.002a2.227 2.227 0 011.226 3.817l-2.4 2.3.57 3.265v.003a2.227 2.227 0 01-3.221 2.362l-.002-.001-3.028-1.565-3.027 1.564-.002.001a2.227 2.227 0 01-3.222-2.363v-.002l.57-3.264-.466-.447 1.445-1.386z"
+                  fill="url(#paint0_linear_755_907)" />
+                <path
+                  d="M18.648 30.921l1.446 1.385-.183.176.57 3.265v.002a2.227 2.227 0 01-3.222 2.363l-.002-.001-3.028-1.565-3.027 1.564-.002.001a2.227 2.227 0 01-3.221-2.363v-.002l.57-3.264-2.4-2.3a2.227 2.227 0 011.226-3.817h.002l3.347-.478 1.511-3.015a2.227 2.227 0 013.989 0v.003l1.509 3.007a2.863 2.863 0 00-.885 1.894 1 1 0 01-.667-.525l-1.748-3.488a.227.227 0 00-.407 0l-.002.004-1.746 3.484a1 1 0 01-.753.541l-3.87.554a.227.227 0 00-.126.389l.002.002 2.786 2.67a1 1 0 01.293.893l-.661 3.793v.003a.227.227 0 00.328.241l.003-.002 3.49-1.803a1 1 0 01.919 0l3.494 1.806a.227.227 0 00.328-.241v-.003l-.662-3.794a1 1 0 01.293-.894l.506-.485z"
+                  fill="url(#paint1_linear_755_907)" />
+                <defs>
+                  <linearGradient id="paint0_linear_755_907" x1="55.441" y1="45.31" x2="39.395" y2="45.31"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_755_907" x1="21.415" y1="45.31" x2="5.369" y2="45.31"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="benefits-item__inner card text__inner">
+                <h5 class="benefits-item__title title-md text-gradient">Находимся на рынке более 8 лет</h5>
+                <p class="benefits-item__text">
+                  Отношения с клиентами нашей компании построены на принципах взаимного уважения, ответственности и
+                  поддержки. Придерживаясь основополагающих принципов нашей работы, мы принимаем все необходимые меры,
+                  чтобы сохранить баланс между качеством наших услуг и разумной ценовой политикой
+                </p>
+              </div>
+            </div>
+            <div class="benefits-item">
+              <svg width="60" height="60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M33.952 34.742a1 1 0 011-1h3.125a1 1 0 110 2h-3.125a1 1 0 01-1-1zm-11.5-1a1 1 0 100 2h3.125a1 1 0 100-2h-3.125z"
+                  fill="#000" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M25.28 21.242a4.125 4.125 0 00-4.016 3.186l-.928 3.971-2.216-.842a1 1 0 00-.71 1.87l1.073.408a4.74 4.74 0 00-1.718 3.657v7.187a2.563 2.563 0 002.562 2.563h2.813a2.876 2.876 0 002.875-2.875v-.25h10.5v.25a2.876 2.876 0 002.875 2.875h2.812a2.563 2.563 0 002.563-2.563v-7.187a4.74 4.74 0 00-1.717-3.656l1.073-.41a1 1 0 00-.713-1.868l-2.18.832-.809-3.868a4.128 4.128 0 00-4.039-3.28h-10.1zm12.978 7.5l-.796-3.81a2.127 2.127 0 00-2.082-1.69h-10.1c-.986 0-1.844.68-2.068 1.64l-.902 3.86h15.948zm-19.493 4.75a2.75 2.75 0 012.75-2.75h17.5a2.75 2.75 0 012.75 2.75v7.187c0 .31-.252.563-.563.563H38.39a.876.876 0 01-.875-.875v-1.25a1 1 0 00-1-1h-12.5a1 1 0 00-1 1v1.25a.876.876 0 01-.875.875h-2.813a.563.563 0 01-.562-.563v-7.187z"
+                  fill="#000" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M6.456 21.142a3.37 3.37 0 00-.096.334l-.705 3.018-1.6-.608a1 1 0 00-.71 1.87l.584.222a4.035 4.035 0 00-1.23 2.906v5.841a2.27 2.27 0 002.27 2.27h2.286a2.524 2.524 0 002.524-2.524v-.016h6.986v-.963c0-.356.04-.703.113-1.037h-8.1a1 1 0 00-1 1v1.016a.524.524 0 01-.523.524H4.969a.27.27 0 01-.27-.27v-5.84c0-1.132.917-2.048 2.048-2.048H20.7l.563-2.409c.11-.47.297-.904.546-1.292l-.33-1.58a3.542 3.542 0 00-3.466-2.814H9.806a3.54 3.54 0 00-3.35 2.4zm1.852.789l-.68 2.906h12.494l-.6-2.87a1.54 1.54 0 00-1.508-1.225H9.806a1.54 1.54 0 00-1.498 1.189z"
+                  fill="url(#paint0_linear_755_906)" />
+                <path
+                  d="M17.009 29.147a1 1 0 00.53 1.745c.26-.398.58-.754.944-1.057l-1.073-.409a.996.996 0 01-.401-.28z"
+                  fill="url(#paint1_linear_755_906)" />
+                <path d="M7.51 28.9a1 1 0 100 2h2.539a1 1 0 100-2h-2.54z" fill="url(#paint2_linear_755_906)" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M43.765 34.455h6.987v.016a2.524 2.524 0 002.524 2.524h2.286a2.27 2.27 0 002.27-2.27v-5.84c0-1.14-.472-2.17-1.23-2.906l.586-.224a1 1 0 10-.713-1.868l-1.567.598-.612-2.928a3.542 3.542 0 00-3.466-2.815h-8.208a3.54 3.54 0 00-3.446 2.734l-.371 1.59c.29.43.502.922.614 1.456l.484 2.315h13.881c1.131 0 2.048.916 2.048 2.047v5.841a.27.27 0 01-.27.27h-2.286a.524.524 0 01-.524-.524v-1.016a1 1 0 00-1-1h-8.1c.074.334.113.68.113 1.037v.963zm-2.641-12.524l-.68 2.906h12.494l-.6-2.87a1.54 1.54 0 00-1.508-1.225h-8.208a1.54 1.54 0 00-1.498 1.189z"
+                  fill="url(#paint3_linear_755_906)" />
+                <path d="M42.992 30.892a1 1 0 00.53-1.746.996.996 0 01-.4.28l-1.074.41c.365.303.683.659.944 1.056z"
+                  fill="url(#paint4_linear_755_906)" />
+                <path d="M50.483 28.9a1 1 0 100 2h2.54a1 1 0 100-2h-2.54z" fill="url(#paint5_linear_755_906)" />
+                <defs>
+                  <linearGradient id="paint0_linear_755_906" x1="22.952" y1="44.574" x2="2.585" y2="44.574"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_755_906" x1="22.952" y1="44.574" x2="2.585" y2="44.574"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                  <linearGradient id="paint2_linear_755_906" x1="22.952" y1="44.574" x2="2.585" y2="44.574"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                  <linearGradient id="paint3_linear_755_906" x1="58.969" y1="44.574" x2="38.691" y2="44.574"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                  <linearGradient id="paint4_linear_755_906" x1="58.969" y1="44.574" x2="38.691" y2="44.574"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                  <linearGradient id="paint5_linear_755_906" x1="58.969" y1="44.574" x2="38.691" y2="44.574"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="benefits-item__inner card text__inner">
+                <h5 class="benefits-item__title title-md text-gradient">Большой выбор автомобилей</h5>
+                <p class="benefits-item__text">
+                  В нашем автопарке имеется большой выбор автомобилей под различные для вас нужды, в том числе и под
+                  такси. Обновление нашего автопарка происходит не реже чем один раз в две недели. Таким образом, вы с
+                  легкостью сможете подобрать для себя автомобиль, который подойдет вам как по цвету, так и по
+                  техническим характеристикам
+                </p>
+              </div>
+            </div>
+            <div class="benefits-item">
+              <svg width="60" height="60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.234 27.995a1 1 0 100 2h10.808a1 1 0 100-2H21.234zm-1 5.053a1 1 0 011-1h10.808a1 1 0 110 2H21.234a1 1 0 01-1-1zm1-9.106a1 1 0 100 2h4.053a1 1 0 000-2h-4.053zm5.756 14.51a1 1 0 011-1h4.052a1 1 0 110 2H27.99a1 1 0 01-1-1zm-2.385-.402a1 1 0 10-1.337-1.488l-1.137 1.02-.228-.205a1 1 0 10-1.337 1.488l.897.806a1 1 0 001.336 0l1.806-1.621z"
+                  fill="#000" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18.532 18.538a3.702 3.702 0 00-3.702 3.702v18.914a3.702 3.702 0 003.702 3.702h16.212a3.702 3.702 0 003.702-3.702V22.24a3.702 3.702 0 00-3.702-3.702H18.532zm-1.203 2.498a1.702 1.702 0 011.203-.498h16.212a1.702 1.702 0 011.702 1.702v18.914a1.702 1.702 0 01-1.702 1.702H18.532a1.702 1.702 0 01-1.702-1.702V22.24c0-.451.18-.884.499-1.204z"
+                  fill="#000" />
+                <path
+                  d="M7.791 17.483a5.7 5.7 0 019.106 1.435 3.702 3.702 0 011.635-.38h.393a7.7 7.7 0 10-4.095 10.065v-2.248a5.7 5.7 0 01-7.039-8.872z"
+                  fill="url(#paint0_linear_755_905)" />
+                <path
+                  d="M12.661 19.255a1 1 0 10-2 0v2.617a1 1 0 00.48.854l2.057 1.255a1 1 0 001.041-1.708l-1.578-.962v-2.056z"
+                  fill="url(#paint1_linear_755_905)" />
+                <path d="M38.263 42.304a3.71 3.71 0 00.183-1.15v-.85h2.384a1 1 0 110 2h-2.567z"
+                  fill="url(#paint2_linear_755_905)" />
+                <path
+                  d="M35.48 44.782v1.347c0 .149.122.27.27.27h2.286a.524.524 0 00.523-.524V44.86a1 1 0 011-1h10.159a1 1 0 011 1v1.016c0 .29.234.524.523.524h2.286a.27.27 0 00.27-.27v-5.84a2.047 2.047 0 00-2.048-2.048H38.446v-2h12.457l-.6-2.87a1.541 1.541 0 00-1.508-1.225h-8.208a1.54 1.54 0 00-1.498 1.189l-.643 2.75v-5.218a3.533 3.533 0 012.141-.72h8.208a3.54 3.54 0 013.465 2.813l.613 2.93 1.567-.6a1 1 0 01.714 1.87l-.587.223a4.035 4.035 0 011.23 2.905v5.841a2.27 2.27 0 01-2.27 2.27H51.24a2.524 2.524 0 01-2.523-2.524v-.016h-8.159v.016a2.524 2.524 0 01-2.523 2.524H35.75a2.27 2.27 0 01-2.27-2.27v-1.273h1.264c.25 0 .496-.025.736-.074z"
+                  fill="url(#paint3_linear_755_905)" />
+                <path d="M48.448 40.304a1 1 0 100 2h2.54a1 1 0 100-2h-2.54z" fill="url(#paint4_linear_755_905)" />
+                <defs>
+                  <linearGradient id="paint0_linear_755_905" x1="19.809" y1="35.607" x2="4.034" y2="35.607"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_755_905" x1="19.809" y1="35.607" x2="4.034" y2="35.607"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                  <linearGradient id="paint2_linear_755_905" x1="57.131" y1="55.979" x2="33.347" y2="55.979"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                  <linearGradient id="paint3_linear_755_905" x1="57.131" y1="55.979" x2="33.347" y2="55.979"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                  <linearGradient id="paint4_linear_755_905" x1="57.131" y1="55.979" x2="33.347" y2="55.979"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FB6E1E" />
+                    <stop offset="1" stop-color="#FB1E46" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="benefits-item__inner card text__inner">
+                <h5 class="benefits-item__title title-md text-gradient">Минимальное время на оформление</h5>
+                <p class="benefits-item__text">
+                  Выбрав данную услугу, вы затратите минимум времени для оформления необходимых документов для получения
+                  права пользования с последующим выкупом выбранного вами автомобиля
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="quizz">
+          <div data-marquiz-id="624a33989ccbf8003fce1c5e"></div>
+          <script>(function(t, p) {window.Marquiz ? Marquiz.add([t, p]) : document.addEventListener('marquizLoaded', function() {Marquiz.add([t, p])})})('Inline', {id: '624a33989ccbf8003fce1c5e', buttonText: 'Пройти тест', bgColor: '#d34085', textColor: '#ffffff', rounded: true, shadow: 'rgba(211, 64, 133, 0.5)', blicked: true, buttonOnMobile: true})</script>
+      </div>
+      <section id="usloviya-arendy" class="rent">
+        <div class="container">
+          <div class="rent__inner">
+            <div class="rent-col">
+              <h4 class="rent__title title mb-2">Какие условия аренды с последующим выкупом?</h4>
+              <p class="rent__text text__inner">
+                Условия аренды с последующим выкупом транспортного средства из нашего автопарка, зависят от марки,
+                модели, класса и года изготовления самого автомобиля
+              </p>
+            </div>
+            <div class="rent-col">
+              <div class="rent-item">
+                <div class="rent-item__numbers text-gradient">15-20%</div>
+                <div class="rent-item__title">Размер первоначального взноса</div>
+              </div>
+              <div class="rent-item">
+                <div class="rent-item__numbers text-gradient">от 1 до 5 лет</div>
+                <div class="rent-item__title">Срок выплаты автокредита</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section id="pravila-oplaty" class="contract section">
+        <div class="container">
+          <div class="contract__inner">
+            <div class="contract-content">
+              <h5 class="contract__title title mb-2">Какой заключается договор при выборе данной услуги?</h5>
+            </div>
+            <div class="contract-col">
+              <p class="contract__text">При выборе нашей услуги заключается следующее:</p>
+              <div class="contract__items mb-2">
+                <div class="contract-item text__inner--dark">
+                  <p>Договор аренды с последующим выкупом</p>
+                </div>
+                <div class="contract-item text__inner--dark">
+                  <p>Приложение № 1, в виде акта приема передачи транспортного средства, который будет подтверждать факт
+                    передачи автомобиля от нас к вам</p>
+                </div>
+                <div class="contract-item text__inner--dark">
+                  <p>Приложение № 2, в виде графика платежей, в котором указываются внесенные платежи по аренде и
+                    выкупу,
+                    а также остаток суммы выкупа транспортного средства</p>
+                </div>
+              </div>
+            </div>
+            <a class="btn btn-primary contract-btn btn-lg" href="#callback">Заказать консультацию</a>
+          </div>
+        </div>
+      </section>
+      <section class="docs section">
+        <div class="container">
+          <div class="docs__inner">
+            <h4 class="docs__title title mb-2">
+              Какие необходимы документы для получения данной услуги?
+            </h4>
+            <div class="docs-wrapper">
+              <div class="docs__items">
+                <div class="docs-item card">
+                  <h6 class="docs-item__title title-md text-gradient mb-2">Для граждан <br> Российской Федерации</h6>
+                  <p class="docs-item__text text__inner--dark">Паспорт гражданина РФ</p>
+                  <p class="docs-item__text text__inner--dark">Прописка Приморского края, либо временная регистрация по
+                    месту пребывания
+                  </p>
+                  <p class="docs-item__text text__inner--dark">Водительское удостоверение</p>
+                </div>
+                <div class="docs-item card">
+                  <h6 class="docs-item__title title-md text-gradient mb-2">Для граждан <br> иного государства</h6>
+                  <p class="docs-item__text text__inner--dark">Паспорт</p>
+                  <p class="docs-item__text text__inner--dark">Перевод паспорта</p>
+                  <p class="docs-item__text text__inner--dark">Вид на жительство, либо разрешение на временное
+                    пребывание (РВП)</p>
+                  <p class="docs-item__text text__inner--dark">Водительское удостоверение</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="procedures section">
+        <div class="container">
+          <div class="procedures__inner">
+            <img class="procedures-img" src="images/procedures-img.png" alt="">
+            <h4 class="procedures__title title mb-2">
+              Порядок <span class="select">сдачи</span> автомобиля
+            </h4>
+            <div class="procedures__items">
+              <div class="procedures-item">
+                <div class="procedures-item__number">1</div>
+                <p class="procedures-item__text text__inner">
+                  В случае непредвиденных и обоснованных обстоятельств, по которым Клиент в силу своих возможностей
+                  перестает быть способным производить дальнейшую оплату по Договору аренды транспортного средства без
+                  экипажа с последующим выкупом, Клиент должен вернуть Автомобиль в том же состоянии, каким он был при
+                  выдаче, чистым и заправленным с тем же количеством топлива. Чистый автомобиль, при возврате,
+                  гарантирует, быстрое производство осмотра и составления обратного Акта Приема-передачи транспортного
+                  средства.
+                </p>
+              </div>
+              <div class="procedures-item">
+                <div class="procedures-item__number">2</div>
+                <p class="procedures-item__text text__inner">
+                  Возврат денежных средств, осуществляется только при условии излишне уплаченной суммы клиентом, за
+                  период
+                  выходящий за дату составления обратного Акта-приема передачи транспортного средства, и только при
+                  наличии такового условия Договора аренды транспортного средства без экипажа с последующим выкупом.
+                </p>
+              </div>
+              <div class="procedures-item">
+                <div class="procedures-item__number">3</div>
+                <p class="procedures-item__text text__inner">
+                  При досрочном расторжении договора по инициативе Клиента, взимается Дополнительный сбор
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="callback" class="callback">
+        <div class="container">
+          <div class="callback__inner">
+            <h3 class="callback__title title-lg">Нужна консультация специалиста?</h3>
+            <p class="callback__text text mb-2">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+            <form action="" name="callback" class="callback-form">
+              <div class="callback-form__row">
+                <input id="callback-name" class="callback-form__input form-input" name="callback-name" type="text"
+                  placeholder="Имя" required>
+                <input id="callback-phone" class="callback-form__input form-input" name="callback-phone" data-tel-input
+                  maxlength="18" type="tel" placeholder="Телефон" required>
+              </div>
+              <div class="callback-radios">
+                <div class="radio">
+                  <input class="custom-radio" type="radio" id="callback-call" name="callback-method" value="Позвонить">
+                  <label for="callback-call">Позвонить</label>
+                </div>
+                <div class="radio">
+                  <input class="custom-radio" type="radio" id="callback-wa" name="callback-method"
+                    value="Написать в WhatsApp">
+                  <label for="callback-wa">Написать в WhatsApp</label>
+                </div>
+              </div>
+              <input class="callback-btn btn btn-default btn-lg" value="Отправить заявку" type="submit">
+            </form>
+            <img class="callback-img" src="images/callback-img.png" alt="Консультация">
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <h5 class="footer__title title">Контакты</h5>
+        <div class="footer__inner">
+          <div class="footer-col footer-contatcs">
+            <a href="tel:89247301201" class="foote__link footer-col__title text link">8 (924) 730-12-01</a>
+            <div class="footer__items">
+              <div class="footer-item">
+                <div class="footer-item__text text-sm">Адрес</div>
+                <div class="footer-item__title">Владивосток, пр-т 100-лет Владивостоку, 103, оф. 312а</div>
+              </div>
+              <div class="footer-item">
+                <div class="footer-item__text text-sm">Время работы</div>
+                <div class="footer-item__title">10:00 - 18:00</div>
+              </div>
+            </div>
+            <a href="#" class="footer-btn btn btn-outline" target="_blank">Написать в WhatsApp</a>
+          </div>
+          <div class="footer-col">
+            <div class="map">
+              <iframe id="map_662188323" frameborder="0" width="100%" height="100%"
+                sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+              <script type="text/javascript">
+                (function (e, t) {
+                  var r = document.getElementById(e);
+                  r.contentWindow.document.open(), r.contentWindow.document.write(atob(t)), r.contentWindow.document
+                    .close()
+                })("map_662188323",
+                  "PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUpe3ZhciB0PUpTT04ucGFyc2UoZSkscj10Lm9yZGVyZWRHZW9tZXRyaWVzLG49dC5tYXBQb3NpdGlvbixhPXQuaXNXaGVlbFpvb21FbmFibGVkO2Z1bmN0aW9uIG8oZSl7cmV0dXJuIGRlY29kZVVSSUNvbXBvbmVudChhdG9iKGUpLnNwbGl0KCIiKS5tYXAoZnVuY3Rpb24oZSl7cmV0dXJuIiUiKygiMDAiK2UuY2hhckNvZGVBdCgwKS50b1N0cmluZygxNikpLnNsaWNlKC0yKX0pLmpvaW4oIiIpKX1ERy50aGVuKGZ1bmN0aW9uKCl7dmFyIGU9REcubWFwKCJtYXAiLHtjZW50ZXI6W24ubGF0LG4ubG9uXSx6b29tOm4uem9vbSxzY3JvbGxXaGVlbFpvb206YSx6b29tQ29udHJvbDohYX0pO0RHLmdlb0pTT04ocix7c3R5bGU6ZnVuY3Rpb24oZSl7dmFyIHQscixuLGEsbztyZXR1cm57ZmlsbENvbG9yOm51bGw9PT0odD1lKXx8dm9pZCAwPT09dD92b2lkIDA6dC5wcm9wZXJ0aWVzLmZpbGxDb2xvcixmaWxsT3BhY2l0eTpudWxsPT09KHI9ZSl8fHZvaWQgMD09PXI/dm9pZCAwOnIucHJvcGVydGllcy5maWxsT3BhY2l0eSxjb2xvcjpudWxsPT09KG49ZSl8fHZvaWQgMD09PW4/dm9pZCAwOm4ucHJvcGVydGllcy5zdHJva2VDb2xvcix3ZWlnaHQ6bnVsbD09PShhPWUpfHx2b2lkIDA9PT1hP3ZvaWQgMDphLnByb3BlcnRpZXMuc3Ryb2tlV2lkdGgsb3BhY2l0eTpudWxsPT09KG89ZSl8fHZvaWQgMD09PW8/dm9pZCAwOm8ucHJvcGVydGllcy5zdHJva2VPcGFjaXR5fX0scG9pbnRUb0xheWVyOmZ1bmN0aW9uKGUsdCl7cmV0dXJuInJhZGl1cyJpbiBlLnByb3BlcnRpZXM/REcuY2lyY2xlKHQsZS5wcm9wZXJ0aWVzLnJhZGl1cyk6REcubWFya2VyKHQse2ljb246ZnVuY3Rpb24oZSl7cmV0dXJuIERHLmRpdkljb24oe2h0bWw6IjxkaXYgY2xhc3M9J2J1bGxldC1tYXJrZXInIHN0eWxlPSdib3JkZXItY29sb3I6ICIrZSsiOyc+PC9kaXY+IixjbGFzc05hbWU6Im92ZXJyaWRlLWRlZmF1bHQiLGljb25TaXplOlsyMCwyMF0saWNvbkFuY2hvcjpbMTAsMTBdfSl9KGUucHJvcGVydGllcy5jb2xvcil9KX0sb25FYWNoRmVhdHVyZTpmdW5jdGlvbihlLHQpe2UucHJvcGVydGllcy5kZXNjcmlwdGlvbiYmdC5iaW5kUG9wdXAobyhlLnByb3BlcnRpZXMuZGVzY3JpcHRpb24pLHtjbG9zZUJ1dHRvbjohMCxjbG9zZU9uRXNjYXBlS2V5OiEwfSksZS5wcm9wZXJ0aWVzLnRpdGxlJiZ0LmJpbmRUb29sdGlwKG8oZS5wcm9wZXJ0aWVzLnRpdGxlKSx7cGVybWFuZW50OiEwLG9wYWNpdHk6MSxjbGFzc05hbWU6InBlcm1hbmVudC10b29sdGlwIn0pfX0pLmFkZFRvKGUpfSl9KSgneyJvcmRlcmVkR2VvbWV0cmllcyI6W3sidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiI2Y5MWIyOCIsInRpdGxlIjoiMEpEUXN0R0MwTDdRdTlDNDBMZlF1TkM5MExNPSIsImRlc2NyaXB0aW9uIjoiUEhBKzBKTFF1OUN3MExUUXVOQ3kwTDdSZ2RHQzBMN1F1aXdnMEwvUmdDM1JnaUF4TURBdDBMdlF0ZEdDSU5DUzBMdlFzTkMwMExqUXN0QyswWUhSZ3RDKzBMclJneXdnTVRBekxDRFF2dEdFMExqUmdTQXpNVFBRc0R3dmNEND0iLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzEzMS45MTE1NTQsNDMuMTYyMzc4XX0sImlkIjo4ODl9XSwibWFwUG9zaXRpb24iOnsibGF0Ijo0My4xNjIxNDg4ODY2MjQ4MSwibG9uIjoxMzEuOTExMzM5NzU5ODI2Nywiem9vbSI6MTV9LCJpc1doZWVsWm9vbUVuYWJsZWQiOmZhbHNlfScpPC9zY3JpcHQ+PHNjcmlwdCBhc3luYz0iIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly93d3cuZ29vZ2xldGFnbWFuYWdlci5jb20vZ3RhZy9qcz9pZD1VQS0xNTg4NjYxNjgtMSI+PC9zY3JpcHQ+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPihmdW5jdGlvbihlKXtmdW5jdGlvbiB0KCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX13aW5kb3cuZGF0YUxheWVyPXdpbmRvdy5kYXRhTGF5ZXJ8fFtdLHQoImpzIixuZXcgRGF0ZSksdCgiY29uZmlnIixlKSx3aW5kb3cuZ3RhZz10fSkoJ1VBLTE1ODg2NjE2OC0xJyk8L3NjcmlwdD48L2JvZHk+"
+                )
+              </script>
+
+            </div>
+          </div>
+          <div class="footer-col">
+            <div class="foote__link footer-col__title text">Реквизиты</div>
+            <div class="footer-infos">
+              <div class="footer-info">
+                <div class="footer-item__title">ИП Самсонов Денис Сергеевич</div>
+              </div>
+              <div class="footer-info">
+                <div class="footer-item__text text-sm">ОГРНИП</div>
+                <div class="footer-item__title">315254300003492</div>
+              </div>
+              <div class="footer-info">
+                <div class="footer-item__text text-sm">ИНН</div>
+                <div class="footer-item__title">253911756002</div>
+              </div>
+              <div class="footer-info">
+                <div class="footer-item__text text-sm">Юридический адрес</div>
+                <div class="footer-item__title">Приморский край, п. Шмидтовка, тупик Морской, д. 2</div>
+              </div>
+              <div class="footer-info">
+                <div class="footer-item__text text-sm">Фактический адрес</div>
+                <div class="footer-item__title">Владивосток, пр-т 100-лет Владивостоку, 103, офис 313а</div>
+              </div>
+              <div class="footer-info">
+                <div class="footer-item__text text-sm">Расчетный счет</div>
+                <div class="footer-item__title">40802810750000001769</div>
+              </div>
+              <div class="footer-info">
+                <div class="footer-item__text text-sm">Банк</div>
+                <div class="footer-item__title">Дальневосточный банк ПАО СБЕРБАНК</div>
+              </div>
+              <div class="footer-info">
+                <div class="footer-item__text text-sm">БИК</div>
+                <div class="footer-item__title">040813608</div>
+              </div>
+              <div class="footer-info">
+                <div class="footer-item__text text-sm">Корреспондентский счет</div>
+                <div class="footer-item__title">30101810600000000608</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer__inner footer-bottom__inner">
+          <a href="#" class="footer-link link">Политика конфиденциальности</a>
+          <a href="#" class="footer-link link">Образец договора оферты</a>
+          <div class="footer-made">
+            <div class="footer-made__text text-sm">Разработка сайт</div>
+            <a href="#" class="footer-made__link">
+              <svg width="127" height="26" viewBox="0 0 127 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 5.23633H2.94227V25.8178H0V5.23633Z" fill="#D8D8D8" />
+                <path
+                  d="M49.5609 7.07356C50.2955 7.69677 50.8767 8.48064 51.2593 9.36443C51.642 10.2482 51.8159 11.2082 51.7676 12.1699C51.814 13.1279 51.639 14.0836 51.2564 14.9631C50.8737 15.8427 50.2936 16.6223 49.5609 17.2418C47.8133 18.5561 45.6554 19.2074 43.472 19.0794H37.5956V25.8174H36.0918V5.23593H43.4475C45.6392 5.10209 47.8068 5.75365 49.5609 7.07356ZM48.5066 16.2862C49.0875 15.7823 49.5456 15.1525 49.8458 14.4448C50.1461 13.7371 50.2807 12.9702 50.2392 12.2026C50.2839 11.4286 50.1511 10.6547 49.8508 9.93989C49.5505 9.22508 49.0907 8.58828 48.5066 8.07813C47.0534 7.01279 45.2702 6.49498 43.472 6.6162H37.5956V17.7318H43.4802C45.2732 17.8516 47.0516 17.3401 48.5066 16.2862Z"
+                  fill="#D8D8D8" />
+                <path
+                  d="M57.9383 23.6861C56.4999 22.1752 55.7725 19.9701 55.7725 17.0707V5.23633H57.2763V17.0217C57.2763 19.5535 57.8538 21.4592 59.009 22.7387C59.6663 23.3919 60.4552 23.8979 61.3232 24.2232C62.1912 24.5484 63.1185 24.6855 64.0435 24.6254C64.9637 24.6856 65.8861 24.5484 66.7488 24.223C67.6115 23.8976 68.3945 23.3915 69.0454 22.7387C70.206 21.4892 70.7781 19.5944 70.7781 17.0625V5.23633H72.2819V17.087C72.2819 19.9837 71.5572 22.1888 70.1079 23.7025C69.3038 24.481 68.3466 25.084 67.2971 25.4735C66.2475 25.8629 65.1285 26.0302 64.0108 25.9648C62.8956 26.0287 61.7794 25.859 60.7337 25.4666C59.6879 25.0742 58.7358 24.4677 57.9383 23.6861Z"
+                  fill="#D8D8D8" />
+                <path d="M78.3711 5.23438H79.8749V24.5009H91.7339V25.8567H78.3711V5.23438Z" fill="#D8D8D8" />
+                <path
+                  d="M96.7845 25.1804C95.5783 24.7664 94.4845 24.0787 93.5889 23.1713L94.2672 22.0524C95.0929 22.8834 96.092 23.5221 97.1932 23.9227C98.4283 24.4015 99.7423 24.6453 101.067 24.6414C102.628 24.7495 104.182 24.3576 105.505 23.5225C105.977 23.1998 106.361 22.7654 106.623 22.258C106.886 21.7505 107.018 21.186 107.009 20.6149C107.027 20.2115 106.963 19.8086 106.823 19.4299C106.683 19.0512 106.468 18.7044 106.192 18.4098C105.647 17.8492 104.982 17.4192 104.246 17.152C103.206 16.785 102.144 16.4796 101.067 16.2373C99.8335 15.9508 98.6188 15.588 97.4302 15.151C96.5332 14.8067 95.7357 14.2455 95.109 13.5176C94.4365 12.6835 94.096 11.6307 94.1528 10.561C94.1516 9.58624 94.4357 8.63237 94.9701 7.81685C95.5719 6.92655 96.4255 6.23562 97.422 5.83221C98.717 5.30168 100.11 5.05117 101.508 5.09715C102.644 5.09614 103.773 5.26405 104.859 5.59535C105.877 5.89031 106.841 6.34816 107.712 6.95112L107.066 8.16804C106.232 7.59891 105.313 7.16352 104.345 6.87761C103.396 6.58994 102.41 6.44138 101.419 6.43658C99.8882 6.33231 98.3661 6.7341 97.0869 7.58C96.6257 7.91948 96.2523 8.36416 95.9978 8.877C95.7434 9.38984 95.6152 9.95602 95.6239 10.5284C95.6062 10.9318 95.6694 11.3347 95.8098 11.7134C95.9501 12.0921 96.1648 12.4389 96.4412 12.7335C96.9934 13.2991 97.6669 13.7319 98.4109 13.9995C99.461 14.3705 100.531 14.684 101.615 14.9387C102.844 15.2225 104.053 15.5853 105.235 16.0249C106.125 16.3777 106.918 16.9377 107.548 17.6584C108.219 18.4711 108.56 19.5057 108.505 20.5578C108.51 21.5306 108.225 22.4831 107.687 23.2938C107.066 24.1783 106.199 24.8624 105.195 25.2621C103.897 25.7843 102.506 26.0345 101.108 25.9971C99.6287 25.9949 98.1626 25.718 96.7845 25.1804Z"
+                  fill="#D8D8D8" />
+                <path
+                  d="M127 24.5029V25.8586H112.787V5.23633H126.559V6.58393H114.299V14.7022H125.275V16.0253H114.283V24.5029H127Z"
+                  fill="#D8D8D8" />
+                <path
+                  d="M30.3052 5.23438H27.8942L19.4188 19.6986L10.9107 5.36505L8.41797 10.0939V25.8159H11.2458V10.9106L18.6832 23.3167H20.04L27.4855 10.8208L27.5101 25.8159H30.3379L30.3052 5.23438Z"
+                  fill="#D8D8D8" />
+                <path d="M6.88935 6.60731H5.58984L6.71772 0H10.3629L6.88935 6.60731Z" fill="#D8D8D8" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
